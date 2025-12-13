@@ -89,16 +89,16 @@ This structure keeps the UI thin and delegates logic to testable modules where p
 
 ## How to run locally
 
-1. Clone the repository
-   git clone [https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit.git](https://github.com/your-username/squad-efficiency-transfermarkt-streamlit.git)
+1. Clone the repository:
+   `git clone [https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit.git](https://github.com/your-username/squad-efficiency-transfermarkt-streamlit.git)`
 
 2. Create and activate a virtual environment
 
 3. Install dependencies
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 
 4. Run the app
-   streamlit run app.py
+   `streamlit run app.py`
 
 The app will open in your browser at [http://localhost:8501](http://localhost:8501)
 
