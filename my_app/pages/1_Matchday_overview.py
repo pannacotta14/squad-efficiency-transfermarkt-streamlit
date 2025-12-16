@@ -15,9 +15,7 @@ st.set_page_config(
 
 st.title("Matchday Overview")
 
-# -----------------------------
-# Small helpers
-# -----------------------------
+# Helper functions
 def normalize_match_id(x) -> str:
     if x is None:
         return ""
