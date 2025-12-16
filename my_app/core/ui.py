@@ -24,7 +24,7 @@ def kpi_chip(label: str, value: str) -> None:
     )
 
 # Club logo utilities
-CLUB_LOGO_DIR = Path("assets/clubs")
+CLUB_LOGO_DIR = Path(__file__).resolve().parents[1] / "assets" / "clubs"
 
 def render_club_logo_by_id(club_id, width: int = 40):
     if club_id is None:
