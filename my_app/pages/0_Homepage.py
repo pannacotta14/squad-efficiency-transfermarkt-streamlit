@@ -1,4 +1,8 @@
+from pathlib import Path
 import streamlit as st
+
+APP_DIR = Path(__file__).resolve().parents[1] # .../my_app
+logo_path = APP_DIR / "assets" / "laliga" / "laliga_logo.png"
 
 st.set_page_config(
     page_title="La Liga Squad Efficiency",
@@ -65,7 +69,7 @@ st.markdown(
 left, right = st.columns([1, 3], vertical_alignment="center")
 
 with left:
-    st.image("assets/laliga/laliga_logo.png", width=250)
+    st.image(str(logo_path), width=300)
 
 with right:
     st.markdown(
