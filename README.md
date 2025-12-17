@@ -33,7 +33,7 @@ Key elements include:
 * Overview of all matches played on the selected matchday
 * Visual comparison across teams to quickly identify outliers and patterns
 
-### Dashboard 2, Specific match analysis
+### Dashboard 2, Match analysis
 
 This page allows a deep dive into a single match.
 
@@ -62,28 +62,57 @@ All data loading is cached to ensure good performance during interaction.
 * Python
 * Streamlit for the web app
 * Pandas for data handling
-* Plotting libraries such as Matplotlib, Altair, or Plotly depending on the chart
 
 The app follows Streamlit best practices, including caching, modular code organization and a clear separation between UI and computation.
 
 ## Repository structure
 
+.
+├── my_app                            # Main application folder
+│   ├── .streamlit                    # Streamlit configuration folder
+│   │   └── config.toml               # Streamlit config file
+│   ├── app.py                        # Main Streamlit app file
+│   ├── pages/                        # Folder for different Streamlit pages
+│   │   ├── 0_Homepage.py             # Homepage file
+│   │   ├── 1_Matchday_overview.py    # Matchday overview page file
+│   │   └── 2_Match_analysis.py       # Specific match analysis page file
+│   ├── core/                         # Core functionality folder
+│   │   ├── init.py                   # Init file for core module
+│   │   ├── data.py                   # Data loading functions
+│   │   └── ui.py                     # Charting functions
+│   └── data/                         # Data folder
+│   │   └── processed/                # Processed data files
+│   └── assets/                       # Static assets like team logos
+│       ├── clubs/                    # Team logos folder
+│       └── laliga/                   # LaLiga logo folder
+├── requirements.txt                  # Python dependencies
+├── .gitignore                   
+├── LICENSE                      
+└── README.md
+
+
 A typical structure for this repository is:
 
+* .streamlit/
+  Streamlit configuration files
+
 * app.py
-  Main entry point, acts as the home page
+  Main entry point, acts as the portal and router for different pages
 
 * pages/
-  Streamlit pages for Matchday Overview and Match Analysis
+  Streamlit pages for Homepage, Matchday Overview and Match Analysis
 
-* app/
+* core/
   Helper modules for data loading, layout components and visualizations
 
+* data/
+  Folder for processed data files consumed by the app
+
 * assets/
-  Static files such as team logos
+  Static logo files for teams and league branding
 
 * requirements.txt
-  Python dependencies needed to run the app
+  Python additional dependencies needed to run the app
 
 This structure keeps the UI thin and delegates logic to testable modules where possible.
 
@@ -104,7 +133,7 @@ The app will open in your browser at [http://localhost:8501](http://localhost:85
 
 ## Deliverables
 
-This repository fulfills the Role 3 deliverables defined in the course:
+This repository fulfills the deliverables defined as follows:
 
 * Fully functional Streamlit dashboard
 * At least two interactive analytical views
