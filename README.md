@@ -1,12 +1,17 @@
 # Squad Efficiency — Transfermarkt - Dashboard
 
-Please also refer to our other documentation page:
+Please refer to our other important project resources for:
 
-* [Documentation Page](https://pannacotta14.github.io/squad-efficiency-transfermarkt-streamlit/)
+* **Data handling pipeline**:
+  * [Documentation page](https://aitorcacciola.github.io/squad-efficiency-transfermarkt/)
+
+* **Streamlit dashboard repository** (this repo):
+  * [GitHub repository](https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit)
+  * [Documentation page](https://pannacotta14.github.io/squad-efficiency-transfermarkt-streamlit/)
 
 ## Foreword
 
-This repository contains the Streamlit dashboard developed as part of the HEC Lausanne Business Analytics group project.
+This repository contains the Streamlit dashboard developed as part of the HEC Lausanne, Business Analytics group project.
 
 The overall project studies squad efficiency in La Liga for the 2025-26 season, using Transfermarkt data to analyze how squad characteristics such as market value, age, availability, etc.
 
@@ -33,7 +38,7 @@ The app focuses on interpretation and storytelling rather than data preparation 
 
 ## Dashboard structure
 
-The Streamlit app is organized as a multi page application with two main analytical views.
+In addition to the homepage, this Streamlit app is organized as a multi page application with two main analytical views:
 
 ### Dashboard 1: Matchday overview
 
