@@ -10,7 +10,7 @@ This repository corresponds to Role 3: Dashboard and web app development. Its pu
 
 ## Demo
 
-Short walkthrough showing Homepage, matchday exploration and match level analysis.
+SShort walkthrough showing homepage navigation, matchday overview and match level analysis.
 
 ![Demo](demo/demo.gif)
 
@@ -135,7 +135,7 @@ This structure keeps the UI thin and delegates logic to testable modules where p
 
    `pip install -r requirements.txt`
 
-4. Run the app:
+4. Run the app (from within  **"my_app"** folder):
 
    `streamlit run app.py`
 
