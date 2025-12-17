@@ -18,9 +18,10 @@ Each match is presented in a compact visual container so that several fixtures c
 This dashboard is best used as a filtering and orientation tool before moving to match level analysis, where individual team compositions and dynamics can be examined in more detail.
 
 Users can:
-	•	Select a specific matchday from the season
-	•	Quickly identify matches of interest based on squad imbalance or unexpected results
-	•	Navigate directly to the Match Analysis view for deeper inspection of a single fixture
+
+* Select a specific matchday from the season
+* Quickly identify matches of interest based on squad imbalance or unexpected results
+* Navigate directly to the Match Analysis view for deeper inspection of a single fixture
 
 The Matchday Overview acts as the main entry point to the dashboard workflow.
 

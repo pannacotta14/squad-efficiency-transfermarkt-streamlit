@@ -2,23 +2,17 @@
 
 An interactive Streamlit dashboard analyzing squad efficiency in La Liga using Transfermarkt-derived data, focusing on age, market value, availability and match performance.
 
----
-
 ## Explore the project
 
 * Live dashboard: [Streamlit App](https://squad-efficiency-transfermarkt-app-bk35z2rxcqbbuepnbxgynd.streamlit.app)
 
 * GitHub repository: [Github](https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit)
 
----
-
 ## Demo
 
 Short walkthrough showing homepage navigation, matchday overview and match level analysis.
 
 ![Demo](demo/demo.gif)
-
----
 
 ## Dashboard previews
 
@@ -33,11 +27,9 @@ Detailed comparison of two teams in a specific match, including squad compositio
 
 Preview: [Match Analysis](match-analysis.md)
 
----
-
 ## Run locally
 
-Clone the repository, install dependencies, then run the app:
+For those who want to replicate the dashboard: Clone the repository, install dependencies, then run the app:
 
 ```
 git clone https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit.git
@@ -50,24 +42,6 @@ streamlit run app.py
 ```
 
 The app will be available at **http://localhost:8501**
-
-
-
-## Repository structure
-
-```
-my_app/
-├── app.py                # Main Streamlit entry point
-├── pages/                # Multipage dashboards
-├── core/                 # Data loading and UI utilities
-├── data/processed/       # Analysis-ready datasets
-├── assets/               # Logo images
-requirements.txt
-README.md
-```
-
-The UI is kept lightweight with data access and visual logic delegated to reusable modules.
-
 
 ## Final notes
 
