@@ -1,12 +1,18 @@
 # Squad Efficiency — Transfermarkt - Dashboard
 
-## Context
-
 This repository contains the Streamlit dashboard developed as part of the HEC Lausanne Business Analytics group project.
 
 The overall project studies squad efficiency in La Liga for the 2025-26 season, using Transfermarkt data to analyze how squad characteristics such as market value, age, availability, etc.
 
 This repository corresponds to Role 3: Dashboard and web app development. Its purpose is to communicate analytical insights interactively to a non technical audience, building on the cleaned data and reusable functions produced in Roles 1 and 2.
+
+***Note: In addition to this locally build Streamlit app using python codes, a live version is hosted on Streamlit Cloud and can be accessed here: [Streamlit Live Dashboard](https://squad-efficiency-transfermarkt-app-bk35z2rxcqbbuepnbxgynd.streamlit.app)***
+
+## Demo
+
+Short walkthrough showing Homepage, matchday exploration and match level analysis.
+
+![Demo](demo/demo.gif)
 
 ## Objectives
 
@@ -23,7 +29,7 @@ The app focuses on interpretation and storytelling rather than data preparation 
 
 The Streamlit app is organized as a multi page application with two main analytical views.
 
-### Dashboard 1, Matchday overview
+### Dashboard 1: Matchday overview
 
 This page provides a high level view of a selected LaLiga matchday.
 
@@ -33,7 +39,7 @@ Key elements include:
 * Overview of all matches played on the selected matchday
 * Visual comparison across teams to quickly identify outliers and patterns
 
-### Dashboard 2, Match analysis
+### Dashboard 2: Match analysis
 
 This page allows a deep dive into a single match.
 
@@ -94,25 +100,25 @@ The app follows Streamlit best practices, including caching, modular code organi
 
 A typical structure for this repository is:
 
-* .streamlit/
-  Streamlit configuration files
+* `.streamlit/`
+    Streamlit configuration files
 
-* app.py
+* `app.py`
   Main entry point, acts as the portal and router for different pages
 
-* pages/
+* `pages/`
   Streamlit pages for Homepage, Matchday Overview and Match Analysis
 
-* core/
+* `core/`
   Helper modules for data loading, layout components and visualizations
 
-* data/
+* `data/`
   Folder for processed data files consumed by the app
 
-* assets/
+* `assets/`
   Static logo files for teams and league branding
 
-* requirements.txt
+* `requirements.txt`
   Python additional dependencies needed to run the app
 
 This structure keeps the UI thin and delegates logic to testable modules where possible.
@@ -120,17 +126,20 @@ This structure keeps the UI thin and delegates logic to testable modules where p
 ## How to run locally
 
 1. Clone the repository:
-   `git clone [https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit.git](https://github.com/your-username/squad-efficiency-transfermarkt-streamlit.git)`
+
+    `git clone https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit.git`
 
 2. Create and activate a virtual environment
 
-3. Install dependencies
+3. Install dependencies:
+
    `pip install -r requirements.txt`
 
-4. Run the app
+4. Run the app:
+
    `streamlit run app.py`
 
-The app will open in your browser at [http://localhost:8501](http://localhost:8501)
+The app will open in your browser at **http://localhost:8501**
 
 ## Deliverables
 
