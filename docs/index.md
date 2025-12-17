@@ -6,9 +6,9 @@ An interactive Streamlit dashboard analyzing squad efficiency in La Liga using T
 
 ## Explore the project
 
-* Live dashboard on Streamlit Cloud: [Live Streamlit App](https://squad-efficiency-transfermarkt-app-bk35z2rxcqbbuepnbxgynd.streamlit.app)
+* Live dashboard: [Streamlit App](https://squad-efficiency-transfermarkt-app-bk35z2rxcqbbuepnbxgynd.streamlit.app)
 
-* GitHub repository with full code and documentation: [GitHub Repository](https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit)
+* GitHub repository: [Github](https://github.com/pannacotta14/squad-efficiency-transfermarkt-streamlit)
 
 ---
 
@@ -25,13 +25,13 @@ Short walkthrough showing homepage navigation, matchday overview and match level
 ### Matchday overview
 High-level snapshot of all fixtures on a selected matchday, focusing on squad characteristics and match outcomes.
 
-Preview: [Matchday Overview](docs/matchday.md)
+Preview: [Matchday Overview](matchday.md)
 
 ### Match analysis
 
 Detailed comparison of two teams in a specific match, including squad composition, availability, and outcome context.
 
-Preview: [Match Analysis](docs/match-analysis.md)
+Preview: [Match Analysis](match-analysis.md)
 
 ---
 
