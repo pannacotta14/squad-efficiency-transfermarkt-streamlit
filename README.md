@@ -10,7 +10,7 @@ This repository corresponds to Role 3: Dashboard and web app development. Its pu
 
 ## Demo
 
-SShort walkthrough showing homepage navigation, matchday overview and match level analysis.
+Short walkthrough showing homepage navigation, matchday overview and match level analysis.
 
 ![Demo](demo/demo.gif)
 
