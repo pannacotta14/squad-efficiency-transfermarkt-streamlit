@@ -306,8 +306,8 @@ comparison_row(
 
 comparison_row(
     "Players available",
-    home.get("players_available"),
-    away.get("players_available"),
+    home.get("players_available_for_match"),
+    away.get("players_available_for_match"),
     fmt="{:.0f}",
 )
 
