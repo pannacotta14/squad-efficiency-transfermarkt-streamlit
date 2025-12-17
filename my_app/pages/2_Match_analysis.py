@@ -385,12 +385,14 @@ comparison_row(
     "Average market value",
     home.get("avg_market_value_used"),
     away.get("avg_market_value_used"),
+    fmt="{:,.0f}",
 )
 
 comparison_row(
     "Minutes weighted market value",
     home.get("weighted_market_value_used"),
     away.get("weighted_market_value_used"),
+    fmt="{:,.0f}",
 )
 
 comparison_row(
