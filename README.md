@@ -67,6 +67,7 @@ The app follows Streamlit best practices, including caching, modular code organi
 
 ## Repository structure
 
+```
 .
 ├── my_app                            # Main application folder
 │   ├── .streamlit                    # Streamlit configuration folder
@@ -89,7 +90,7 @@ The app follows Streamlit best practices, including caching, modular code organi
 ├── .gitignore                   
 ├── LICENSE                      
 └── README.md
-
+```
 
 A typical structure for this repository is:
 
